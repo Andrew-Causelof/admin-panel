@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Music App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <!--brand-->
+        <a href="#" class="navbar-brand text-uppercase">
+          <h1>Admin Theme</h1>
+        </a>
+
+        <!-- toggler-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon">
+
+          </span>
+        </button>
+        <!--Navbar Links-->
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+          <ul class="navbar-nav links d-md-none">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-home text-muted mr-3"></i>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-list text-muted mr-3"></i>
+                App
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-envelope text-muted mr-3"></i>
+                Mailbox
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-desktop text-muted mr-3"></i>
+                UI Elements
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-envelope text-muted mr-3"></i>
+                Mailbox
+              </a>
+            </li>
+          </ul>
+          <!--nav icons-->
+          <ul class="navbar-nav icons">
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fa fa-search"></i>
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fa fa-bell icon"></i>
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fa fa-comment icon"></i>
+              </a>
+            </li>
+            <li class="nav-item mr-5">
+              <a href="#" class="nav-link">
+                <img src="images/team-1.jpg" alt="" width="30" class="img-fluid rounded-circle img-thumbnail">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#sign-out">
+                <i class="fa fa-sign-out"></i>
+                sign out
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end of navbar-->
+
+
+    <!--The Modal-->
+     <div class="modal fade" id="sign-out">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!--modal header-->
+          <div class="modal-header">
+            <h4 class="modal-title">Already want to leave</h4>
+            <button class="close" type="button"
+              data-dismiss="modal"
+
+            
+            >&times;</button>
+          </div>
+          <!--Modal body-->
+           <div class="modal-body"></div>
+             it is sad to see you go. Please Press Logout to leave
+        </div>
+        <!--Modal footer-->
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="button" data-dismiss="modal">
+            Stay Here</button>
+
+          <button class="btn btn-danger" type="button" data-dismiss="modal">
+              Stay Here</button>
+
+        </div>
+      </div>
+     </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- line chart -->
+    <script src="line.js"></script>
+    <!-- bar-chart -->
+    <script src="bar.js"></script>
+    <!-- doughnut-chart -->
+    <script src="doughnut.js"></script>
+
+    <!-- toggler button -->
+    <script>
+      $(".navbar-toggler").html(
+        '<i class="fa fa-arrow-down fa-3x text-white"></i>'
+      );
+    </script>
+  </body>
+</html>
